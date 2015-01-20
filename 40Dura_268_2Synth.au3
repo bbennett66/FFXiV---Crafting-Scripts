@@ -8,6 +8,7 @@ For $i = 1 to $NumToCraft
 
    StartCraft($hWnd)
 
+   SendCraftCommand( $hWnd, $ComfortZone, 		$ComfortZoneWait		)
    SendCraftCommand( $hWnd, $InnerQuiet, 		$InnerQuietWait			)
    SendCraftCommand( $hWnd, $SteadyHand2, 		$SteadyHand2Wait		)
    SendCraftCommand( $hWnd, $WasteNot, 			$WasteNotWait			)
@@ -15,15 +16,14 @@ For $i = 1 to $NumToCraft
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
-
    SendCraftCommand( $hWnd, $Manipulation, 		$ManipulationWait		)
    SendCraftCommand( $hWnd, $SteadyHand2, 		$SteadyHand2Wait		)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
-   SendCraftCommand( $hWnd, $StandardTouch, 	$StandardTouchWait		)
-
+   SendCraftCommand( $hWnd, $GreatStrides, 		$GreatStridesWait		)
    SendCraftCommand( $hWnd, $GreatStrides, 		$Ingenuity2Wait			)
    SendCraftCommand( $hWnd, $ByregotsBlessing, 	$ByregotsBlessingWait	)
+   SendCraftCommand( $hWnd, $CarefulSynthisis2, $CarefulSynthisis2Wait	)
    SendCraftCommand( $hWnd, $CarefulSynthisis2, $CarefulSynthisis2Wait	)
 
 Next
