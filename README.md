@@ -1,1 +1,1 @@
-# FFXIV-Scriipts
+# Helper Scripts
