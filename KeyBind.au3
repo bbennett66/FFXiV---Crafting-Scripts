@@ -24,11 +24,11 @@ Local $BasicTouchWait 			= 3000
 
 ;Comlumn 3
 Local $MasterMend2 				= "3"
-Local $MasterMend2Wait 			= 2000
+Local $MasterMend2Wait 			= 3000
 Local $MasterMend 				= "^3"
-Local $MasterMendWait 			= 2000
+Local $MasterMendWait 			= 3000
 Local $Manipulation 			= "+3"
-Local $ManipulationWait 		= 2000
+Local $ManipulationWait 		= 3000
 
 ;Comlumn 4
 Local $WasteNot2 				= "4"
@@ -122,3 +122,24 @@ Func StartCraft( $hWnd )
    Return
 
 EndFunc
+
+Func StartDesynthesis( $hWnd )
+
+   Sleep( 500 )
+   WinActivate( $hWnd )
+   Sleep( 300 )
+   MouseClick( "left", 61, 109 )
+   Sleep( 100 )
+   MouseClick( "left", 61, 109 )
+   Sleep( 300 )
+   MouseClick( "left", 179, 468 )
+   Sleep( 100 )
+   MouseClick( "left", 179, 468 )
+   Sleep( 2500 )
+   MouseClick( "left", 959, 603 )
+   Sleep( 100 )
+   MouseClick( "left", 959, 603 )
+   Return
+
+EndFunc
+
