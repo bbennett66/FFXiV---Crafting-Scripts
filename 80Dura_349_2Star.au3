@@ -10,19 +10,22 @@ For $i = 1 to $NumToCraft
 
    SendCraftCommand( $hWnd, $ComfortZone, 		$ComfortZoneWait		)
    SendCraftCommand( $hWnd, $InnerQuiet, 		$InnerQuietWait			)
-   SendCraftCommand( $hWnd, $WasteNot2, 		$WasteNot2Wait			)
+   SendCraftCommand( $hWnd, $WasteNot,	 		$WasteNotWait			)
    SendCraftCommand( $hWnd, $SteadyHand2, 		$SteadyHand2Wait		)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
    SendCraftCommand( $hWnd, $HastyTouch, 		$HastyTouchWait			)
+
    SendCraftCommand( $hWnd, $GreatStrides, 		$GreatStridesWait		)
    SendCraftCommand( $hWnd, $SteadyHand, 		$SteadyHandWait			)
    SendCraftCommand( $hWnd, $Ingenuity2, 		$Ingenuity2Wait			)
    SendCraftCommand( $hWnd, $AdvancedTouch, 	$AdvancedTouchWait		)
    SendCraftCommand( $hWnd, $GreatStrides, 		$GreatStridesWait		)
    SendCraftCommand( $hWnd, $ByregotsBlessing, 	$ByregotsBlessingWait	)
+
+   SendCraftCommand( $hWnd, $WasteNot,	 		$WasteNotWait			)
    SendCraftCommand( $hWnd, $CarefulSynthisis2, $CarefulSynthisis2Wait	)
    SendCraftCommand( $hWnd, $CarefulSynthisis2, $CarefulSynthisis2Wait	)
    SendCraftCommand( $hWnd, $Ingenuity2, 		$Ingenuity2Wait			)
